@@ -1,0 +1,45 @@
+# Angular specific files
+/dist/
+/out-tsc/
+/node_modules/
+/coverage/
+package-lock.json
+yarn.lock
+
+# Environment files
+/src/environments/*.local.ts
+/src/environments/*.prod.ts
+/src/environments/*.dev.ts
+/src/environments/environment.*.ts
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Build artifacts
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+/.angular/cache/
+/*.bak
+*.tmp
+*.~*
+
+# Angular CLI files
+.angular/
+*.json.config.bak
+
+# Testing
+/karma-results/
